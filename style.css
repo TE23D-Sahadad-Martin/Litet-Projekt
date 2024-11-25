@@ -1,15 +1,16 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(./img/snabblagad_korvstroganoff.jpg);
+    background-image: url('./img/snabblagad_korvstroganoff.jpg');
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
 }
 
 header {
@@ -21,6 +22,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 24px;
 }
 
 .grid {
@@ -42,21 +44,34 @@ header h1 {
 }
 
 .placeholder {
-    background-color: #e0e0e0;
-    height: auto;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap; 
-    gap: 5px;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
     border: 1px dashed #ccc;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .placeholder img {
-    width: 30%; 
-    max-width: 100px; 
+    width: 100px;
     height: auto;
-    object-fit: contain; 
-    display: block;
+    object-fit: contain;
+}
+
+.flex-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.flex-links a:hover {
+    text-decoration: underline;
 }
