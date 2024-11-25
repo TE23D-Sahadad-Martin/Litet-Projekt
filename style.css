@@ -45,8 +45,8 @@ header h1 {
     background-color: #e0e0e0;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: center; 
     flex-wrap: wrap; 
     gap: 5px;
     padding: 10px;
